@@ -1,0 +1,13 @@
+{
+  "name": "My .NET Core App",
+  "dockerFile": "Dockerfile",
+  "appPort": [5000],
+  "extensions": [
+    "ms-dotnettools.csharp",
+    "ms-azuretools.vscode-azureappservice"
+  ],
+  "settings": {
+    "csharp.suppressHiddenDiagnostics": true
+  },
+  "postCreateCommand": "dotnet restore"
+}
